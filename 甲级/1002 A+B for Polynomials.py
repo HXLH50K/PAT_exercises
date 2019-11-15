@@ -28,6 +28,8 @@ def main():
             res1 = " "+str(i)+res1
             cnt+=1
     res1 = str(cnt)+res1 
+    if res1=="0 ":
+        res1="0"
     return res1
 
 if __name__ == '__main__':
